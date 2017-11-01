@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+}
+.box1{
+	width:400px;
+	height:400px;
+	margin:100px auto;
+	 -webkit-transform:rotate(45deg);
+	
+}
+.box1:after{
+	content:"";
+	display:block;
+	width:0;
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+.box2-1,.box2-2,.box2-3,.box2-4{
+	float:left;
+	width:200px;
+	height:200px;
+	position:relative;
+	
+}
+.box2-1{
+	background-color: #ef8100;
+}
+.box2-2{
+	background-color: #179392;
+}
+.box2-4{
+	background-color: #efba00;
+}
+.box2-3{
+	background-color: #25abaa;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('font/iconfont.eot');
+  src: url('font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('font/iconfont.woff') format('woff'),
+  url('font/iconfont.ttf') format('truetype'),
+  url('font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:50px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscaleth ;
+ text-align:center;
+
+ color:#fff;
+}
+.zhong{
+	font-size:20px;
+	line-height:20px;
+	
+	text-align:center;
+	 color:#fff;
+	
+}
+
+.ying{
+	font-size:16px;
+	line-height:16px;
+	
+	text-align:center;
+	 color:#fff;
+	
+
+}
+.box3{
+	 -webkit-transform:rotate(-45deg);
+	 position:absolute;
+	 top:25%;
+	 left:25%;
+}
